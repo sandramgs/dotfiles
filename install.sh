@@ -15,13 +15,19 @@ if test ! $(which brew); then
 fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
-rm -rf $HOME/.zshrc
+rm $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
+brew tap homebrew/bundle
+brew bundle --file $HOME/.dotfiles/Brewfile
 
 # Clone Github repositories
-$DOTFILES/clone.sh
+#$HOME/.dotfiles/clone.sh
+
+# symlinks
+ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
+ln -s $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
