@@ -122,3 +122,4 @@ if [ -f '/Users/cristianrengifo/google-cloud-sdk/completion.zsh.inc' ]; then . '
 # ASDF
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
