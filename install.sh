@@ -22,6 +22,10 @@ fi
 rm $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Removes .p10k.zsh from $HOME (if it exists) and symlinks the .p10k.zsh file from the .dotfiles
+rm $HOME/.p10k.zsh
+ln -s $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
+
 # Update Homebrew recipes
 brew update
 
@@ -34,4 +38,4 @@ brew bundle --file $HOME/.dotfiles/Brewfile
 
 # symlinks
 ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
-ln -s $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
+
