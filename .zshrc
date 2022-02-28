@@ -109,7 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="/opt/homebrew/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/cristianrengifo/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cristianrengifo/google-cloud-sdk/path.zsh.inc'; fi
