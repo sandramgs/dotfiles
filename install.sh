@@ -31,8 +31,11 @@ ln -s $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
-brew bundle --file $HOME/.dotfiles/Brewfile
+#brew tap homebrew/bundle
+#brew bundle --file $HOME/.dotfiles/Brewfile
+
+# Install all our dependencies
+xargs -n1 -t brew install < install/brew-list.txt
 
 # Clone Github repositories
 #$HOME/.dotfiles/clone.sh
