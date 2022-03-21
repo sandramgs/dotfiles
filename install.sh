@@ -42,4 +42,6 @@ xargs -n1 -t brew install < install/brew-list.txt
 
 # symlinks
 ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
+ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+ln -s $HOME/.dotfiles/.gitignore $HOME/.gitignore
 
