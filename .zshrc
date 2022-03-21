@@ -137,4 +137,8 @@ if [ -f '/Users/cristianrengifo/google-cloud-sdk/completion.zsh.inc' ]; then . '
 # ASDF
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+# Psql
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+# Mysql
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"

@@ -15,7 +15,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   
-  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> $HOME/.zshrc
+#  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> $HOME/.zshrc
 fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
