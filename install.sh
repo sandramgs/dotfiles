@@ -44,4 +44,5 @@ xargs -n1 -t brew install < install/brew-list.txt
 ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 ln -s $HOME/.dotfiles/.gitignore $HOME/.gitignore
+ln -s $HOME/.dotfiles/.tool-versions $HOME/.tool-versions
 
