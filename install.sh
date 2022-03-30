@@ -36,6 +36,7 @@ brew update
 
 # Install all our dependencies
 xargs -n1 -t brew install < install/brew-list.txt
+xargs -n1 -t brew install --cask < install/brew-list-cask.txt
 
 # Clone Github repositories
 #$HOME/.dotfiles/clone.sh
