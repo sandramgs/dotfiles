@@ -5,3 +5,5 @@
 
 [core]
 	excludesFile = /Users/cristianrengifo/.gitignore
+[init]
+	defaultBranch = main
