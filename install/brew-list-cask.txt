@@ -1,2 +1,6 @@
+google-chrome
+iterm2
+postman
 rectangle
-
+visual-studio-code
+zoom

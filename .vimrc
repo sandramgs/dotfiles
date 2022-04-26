@@ -8,9 +8,9 @@ set ttyfast
 set backspace=indent,eol,start
 
 ""  Tabs
-set tabstop=4
+set tabstop=2
 set softtabstop=0
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 
 "" Searching
@@ -45,4 +45,5 @@ set showmatch
 set sw=2
 set relativenumber
 set autoindent
+set mmp=5000
 

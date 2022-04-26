@@ -1,6 +1,7 @@
 ansible
 asdf
 awscli
+dive
 eksctl
 fzf
 gh
