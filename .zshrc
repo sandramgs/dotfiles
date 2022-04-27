@@ -106,39 +106,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# This command is used a LOT both below and in daily life
-alias k="kubectl"
-
-# Drop into an interactive terminal on a container
-alias keti='kubectl exec -t -i'
-
-# Pod management.
-alias kgp='kubectl get pods'
-alias kgpa='kubectl get pods --all-namespaces'
-alias kgpw='kgp --watch'
-alias kgpwide='kgp -o wide'
-alias kep='kubectl edit pods'
-alias kdp='kubectl describe pods'
-alias kdelp='kubectl delete pods'
-alias kgpall='kubectl get pods --all-namespaces -o wide'
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/cristianrengifo/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cristianrengifo/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/cristianrengifo/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cristianrengifo/google-cloud-sdk/completion.zsh.inc'; fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ASDF
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
-# Psql
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-
-# Mysql
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"

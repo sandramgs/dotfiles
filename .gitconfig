@@ -1,9 +1,9 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Cristian Rengifo
-	email = ingcrengifo@gmail.com
+	name = Sandra Garzon
+	email = sandramgs7@gmail.com
 
 [core]
-	excludesFile = /Users/cristianrengifo/.gitignore
+	excludesFile = /Users/sandragarzon/.gitignore
 [init]
 	defaultBranch = main

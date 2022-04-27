@@ -3,7 +3,6 @@ dbeaver-community
 docker
 google-chrome
 iterm2
-lens
 postman
 rectangle
 visual-studio-code
